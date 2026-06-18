@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="Reg.css">
+</head>
+<body>
+
+<div class="reg-container">
+    <h2>Login</h2>
+     <script src="Reg.js"></script>
+    <form action="/Reg" method="post" onsubmit="return regUser()">
+
+
+        <div class="input-grp">
+            <label>Username</label>
+            <input type="text" name="Username" required>
+        </div>
+
+         <div class="input-grp">
+            <label>Email</label>
+            <input type="text" name="email" required>
+        </div>
+
+        <div class="input-grp">
+            <label>Password</label>
+            <input type="password" name="password" required>
+        </div>
+
+        <div class="input-grp">
+            <label>Confirm Password</label>
+            <input type="password" name="cfmpassword" required>
+        </div>
+
+        <button type="submit" class="login-btn">Login</button>
+
+        <div class="links">
+            <p>Don't have an account? <a href="registration.html">Sign Up</a></p>
+        </div>
+    </form>
+</div>
+</html>
