@@ -1,5 +1,5 @@
 JFORCE TASK  FOR EVENT MANAGEMENT
 
-Please find html on
+Please find web files (html, css, js) and sql queries on
 
 src/main/resources/static
